@@ -34,11 +34,3 @@ function convertStringIntoInt(theInput, valid) {
 }
 
 numberToTest = convertStringIntoInt(userInput, inputIsValid);
-
-if (numberToTest % 2 === 0 && numberToTest != 0) {
-    alert("Le nombre est pair");
-} else if (numberToTest != 0) {
-    alert("Le nombre est unpair");
-} else {
-    alert("Vous n'avez pas entré un nombre valable");
-}
