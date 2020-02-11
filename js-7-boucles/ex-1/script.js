@@ -8,6 +8,7 @@ do {
     if (answer !== null && answer !== "") {
         names.push(answer);
     }
+    console.log(answer);
 } while (answer);
 
 console.log(names.length);
