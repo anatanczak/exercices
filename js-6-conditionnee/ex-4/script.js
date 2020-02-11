@@ -4,7 +4,7 @@ let numberOfKidsInt = 0;
 let lowWage;
 let bossPart;
 
-
+//une personne peut entre en couple sans être mariée c'est pour cette raison que je considere en couple toutes les personnes qui ne sont pas celibataires 
 single = confirm("Etes-vous celibataire ?")
 
 numberOfKidsString = prompt("Combien d'enfant avez-vous ? Entrer 0 si vous n'en avez pas.");
