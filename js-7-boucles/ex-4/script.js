@@ -23,3 +23,5 @@ for (const item of numbers) {
 average = sum / numbers.length
 
 // TO DO show the sum and the average
+
+alert("La somme des entiers est: " + sum + "La moyenne est " + average)
