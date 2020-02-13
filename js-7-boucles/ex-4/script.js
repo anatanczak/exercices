@@ -1,19 +1,19 @@
 let numbers = [];
-let answer;
-let nameNumber = 1;
-let enteredNumber;
+let numberUserInput;
+let nameNumberCount = 1;
+let enteredNumberInt;
 let sum = 0;
 let average;
 
 // je ne traite pas toute les erreures possibles lors de la saisie
 do {
-    answer = prompt("saisissez un entier Nr°" + nameNumber + "ou entrer le 0 pour arrêter le saisie.");
-    nameNumber++;
-    enteredNumber = parseInt(answer)
-    if (!isNaN(enteredNumber)) {
-        numbers.push(enteredNumber);
+    numberUserInput = prompt("saisissez un entier Nr°" + nameNumberCount + "ou entrer le 0 pour arrêter le saisie.");
+    nameNumberCount++;
+    enteredNumberInt = parseInt(numberUserInput)
+    if (!isNaN(enteredNumberInt)) {
+        numbers.push(enteredNumberInt);
     }
-} while (answer !== "0");
+} while (numberUserInput !== "0");
 
 let lastElement = numbers.pop()
 
